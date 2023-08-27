@@ -1,0 +1,125 @@
+.Data {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.everything {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.movie {
+  width: 79%;
+  height: 100%;
+}
+
+.container {
+  margin: 0px;
+  display: flex;
+  width: 70%;
+  height: 100%;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.controls {
+  width: 23.5%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  justify-content: space-around;
+  background: rgba(255, 255, 255, 0.402);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  flex-wrap: nowrap;
+}
+
+.btn {
+  background-color: rgba(169, 169, 169, 0.648);
+  border: none;
+  border-radius: 10%;
+  width: 50px;
+  height: 40px;
+  text-align: center;
+  font-size: large;
+}
+
+.infodiv {
+  /* background-color: rgba(176, 224, 230, 0.559); */
+  display: flex;
+  align-items: center;
+  width: 90%;
+  padding: 3%;
+  height: 5%;
+  border-radius: 5%;
+}
+
+.form {
+  font-size: small;
+  text-align: center;
+  /* background-color: rgba(176, 224, 230, 0.559); */
+  height: 20%;
+  display: flex;
+  margin: 0 3% 3% 3%;
+  flex-direction: column;
+  align-content: space-around;
+  justify-content: center;
+  border-radius: 5%;
+}
+
+.formque {
+  display: flex;
+  justify-content: center;
+}
+
+.question {
+  margin-top: 2%;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.head {
+  border: 2px solid rgb(0, 0, 0);
+  padding: 3%;
+  color: rgba(0, 0, 0);
+}
+
+video {
+  cursor: url("./png2.png"), auto;
+}
+
+.outcomeData {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: black;
+  height: 12%;
+  width: 77%;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clickk {
+  width: 70px;
+  height: 70px;
+  position: relative;
+}
+
+.likertinfo {
+  display: flex;
+  align-items: center;
+  font-size: small;
+}

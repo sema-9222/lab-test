@@ -1,0 +1,44 @@
+.Alltrail {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.btn {
+  margin: 5% 0% 2% 0%;
+}
+
+.vid {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.outcome {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: black;
+  height: 12%;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.corr-incorr {
+  width: 50px;
+}
+
+.stuff {
+  height: 100%;
+  display: flex;
+}
